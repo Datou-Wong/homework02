@@ -1,0 +1,259 @@
+/* 字體 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+/* 顏色 */
+:root{
+    --Primary-100:#F5FEE7;
+    --Primary-200:#E8FEC5;
+    --Primary-300:#C0FA73;
+    --Primary-400:#57A203;
+    --Primary-500:#477A11;
+    --Neutral-0:#FFFFFF;
+    --Neutral-100:#FFFFFF;
+    --Neutral-200:#E9ECEF;
+    --Neutral-300:#DEE2E6;
+    --Neutral-400:#CED4DA;
+    --Neutral-500:#ADB5BD;
+    --Neutral-600:#6C757D;
+    --Neutral-700:#495057;
+    --Neutral-800:#343A40;
+    --Neutral-900:#212529;
+    --Danger-100:#FCF1F1;
+    --Danger-200:#EBA7A7;
+    --Danger-300:#E9ECEF;
+    --Warning-100:#FEF6EC;
+    --Warning-200:#F9C588;
+    --Warning-300:#F38B12;
+    --Success-100:#EFF8F4;
+    --Success-200:#9AD1BA;
+    --Success-300:#36A375;
+    --Info-100:#EEF5FC;
+    --Info-200:#97C3ED;
+    --Info-300:#3087DB;
+}
+.c-n600{
+    color: var(--Neutral-600);
+}
+.c-p300{
+    color: var(--Primary-300);
+}
+.c-p400{
+    color: var(--Primary-400);
+}
+.c-n900{
+    color: var(--Neutral-900);
+}
+
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Noto Sans TC", sans-serif;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: var(--Neutral-900);
+}
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/* 通用樣式 */
+h1{
+    font-size: 40px;
+    line-height: 1.2;
+}
+h2{
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: var(--Neutral-9 00);
+}
+h3{
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+h4{
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: var(--Neutral-900);
+}
+h5{
+    font-size: 20px;
+    line-height: 1.2;
+}
+h6{
+    font-size: 16px;
+    line-height: 1.2; 
+    font-weight: 700;
+    color: var(--Neutral-900);
+}
+.textp-l{
+    font-size: 20px;
+    line-height: 1.5;
+}
+.textp-m{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: var(--Neutral-900);
+}
+.textp-s{
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: var(--Neutral-600);
+}
+.textp-page{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: var(--Neutral-900);
+}
+
+.d-flex{
+    display: flex;
+}
+.justify-sb{
+    justify-content: space-between;
+}
+.justify-c{
+    justify-content: center;
+}
+.align-c{
+    align-items: center;
+}
+.f-w{
+    flex-wrap: wrap;
+}
+.ta-c{
+    text-align: center;
+}
+
+
+.pb-12{
+    padding-bottom: 12px;
+}
+.py-8{
+    padding: 8px 0;
+}
+.py-12{
+    padding: 12px 0;
+}
+.py-16{
+    padding: 16px 0;
+}
+.py-32{
+    padding: 32px 0;
+}
+.py-33{
+    padding: 33.5px 0;
+}
+.py-64{
+    padding: 64px 0;
+}
+.px-12{
+    padding: 12px 0;
+}
+.pb-4{
+    padding-bottom: 4px;
+}
+.pb-16{
+    padding-bottom: 16px;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.pb-48{
+    padding-bottom: 48px;
+}
+.pr-24{
+    padding-right: 24px;
+}
+.pt-32{
+    padding-top: 32px;
+}
+.mr-8{
+    margin-right: 8px;
+}
+.mr-12{
+    margin-right: 12px;
+}
+.mr-40{
+    margin-right: 40px;
+}
+.mr-48{
+    margin-right: 48px;
+}
+.mb-24{
+    margin-bottom: 24px;
+}
+.mb-32{
+    margin-bottom: 32px;
+}
+.mb-48{
+    margin-bottom: 48px;
+}
+.mt-48{
+    margin-top: 48px;
+}
+
+.container{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+.col-2{
+    padding: 0 12px;
+    width: calc(100%/12*2);
+}
+.col-4{
+    padding: 0 12px;
+    width: calc(100%/12*4);
+}
+.col-5{
+    padding: 0 12px;
+    width: calc(100%/12*5);
+}
+.col-7{
+    padding: 0 12px;
+    width: calc(100%/12*7);
+}
+.col-10{
+    padding: 0 12px;
+    width: calc(100%/12*10);
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -12px;
+}
+
+
+
+/* 元件 */
+.breadcrumb-item + .breadcrumb-item::before{
+    content: '/';
+    padding: 0 12px;
+    color: var(--Neutral-300);
+    font-weight: 700;
+}
+.breadcrumb-item{
+    display: flex;
+}
+
+.btn{
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    cursor:pointer;
+    border: none;
+    background: transparent;
+}
+

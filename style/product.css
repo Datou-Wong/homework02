@@ -1,0 +1,40 @@
+nav ul li a{
+    letter-spacing: 0;
+}
+nav ol li a{
+    letter-spacing: 0;
+}
+nav a i{
+    padding: 12px;
+} 
+
+.allPro ul li{
+    padding-bottom: 20px;
+}
+.allPro ul li a{
+    padding: 8px 0;
+}
+.product-list p{
+    font-weight: 500;
+}
+.page .btn{
+    padding: 8px 15px;
+    border-radius: 0;
+    font-weight: 400;
+}
+.page .page-else{
+    background-color: var(--Primary-300);
+    font-weight: 500;
+} 
+.register{
+    background-color: var(--Primary-200);
+
+}
+.btn-black{
+    padding: 12px 24px;
+    background-color: var(--Neutral-900);
+    color: white;
+}
+footer nav{
+    font-weight: 500;
+}
