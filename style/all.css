@@ -135,12 +135,11 @@ h6{
     text-align: center;
 }
 
-
+.p-8{
+    padding: 8px;
+}
 .pb-12{
     padding-bottom: 12px;
-}
-.py-8{
-    padding: 8px 0;
 }
 .py-12{
     padding: 12px 0;
@@ -178,6 +177,10 @@ h6{
 .pt-32{
     padding-top: 32px;
 }
+.prb-8{
+    padding-right: 8px;
+    padding-bottom: 8px;
+}
 .mr-8{
     margin-right: 8px;
 }
@@ -189,6 +192,9 @@ h6{
 }
 .mr-48{
     margin-right: 48px;
+}
+.mb-8{
+    margin-bottom: 8px;
 }
 .mb-24{
     margin-bottom: 24px;
@@ -218,6 +224,10 @@ h6{
 .col-5{
     padding: 0 12px;
     width: calc(100%/12*5);
+}
+.col-6{
+    padding: 0 12px;
+    width: calc(100%/12*6);
 }
 .col-7{
     padding: 0 12px;
