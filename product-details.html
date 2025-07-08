@@ -7,11 +7,12 @@
     <title>產品詳情頁</title>
     <link rel="stylesheet" href="style/reset.css" />
     <link rel="stylesheet" href="style/all.css" />
-    <link rel="stylesheet" href="style/product.css" />
+    <link rel="stylesheet" href="style/product-details.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
 </head>
 
 <body>
+    <!-- 上面導覽列 -->
     <nav class="container py-16 d-flex justify-sb align-c">
         <ul class="d-flex align-c">
             <li>
@@ -22,44 +23,80 @@
         </ul>
         <a href="#"><i class="bi bi-person"></i></a>
     </nav>
-    <main class="container">
-        <div class="row">
-            <div class="col-7 d-flex f-w">
-                <div class="col-6 prb-8">
-                    <div class="det-car"><img src="img/product-d/1.png" alt="">
+    <main class="container d-flex">
+        <div class="row py-64">
+            <!-- 左邊鞋子圖片 -->
+            <div class="col-7">
+                <div class="product-row">
+                    <div class="col-6 px-4 mb-8">
+                        <img src="img/product-d/1.png" alt="">
+                    </div>
+                    <div class="col-6 px-4 mb-8">
+                        <img src="img/product-d/2.png" alt="">
+                    </div>
+                    <div class="col-6 px-4 mb-8">
+                        <img src="img/product-d/3.png" alt="">
+                    </div>
+                    <div class="col-6 px-4 mb-8">
+                        <img src="img/product-d/4.png" alt="">
+                    </div>
+                    <div class="col-6 px-4 mb-8">
+                        <img src="img/product-d/5.png" alt="">
+                    </div>
+                    <div class="col-6 px-4 mb-8">
+                        <img src="img/product-d/6.png" alt="">
+                    </div>
+                    <div class="col-6 px-4 mb-8">
+                        <img src="img/product-d/7.png" alt="">
+                    </div>
+                    <div class="col-6 px-4">
+                        <img src="img/product-d/8.png" alt="">
                     </div>
                 </div>
-                <div class="col-6 prb-8">
-                    <div class="det-car"><img src="img/product-d/2.png" alt="">
+            </div>
+            <div class="col-5 px-12">
+                <!-- 右邊小導覽列 -->
+                <nav class="mb-12">
+                    <ol class="d-flex textp-m">
+                        <li class="breadcrumb-item"><a href="index.html" class="c-n600">首頁</a></li>
+                        <li class="breadcrumb-item"><a href="#" class="c-n600">女鞋</a></li>
+                        <li class="breadcrumb-item"><a href="#" class="c-n600">滑板鞋</a></li>
+                        <li class="breadcrumb-item"><a href="#">Platform 404</a></li>
+                    </ol>
+                </nav>
+                <!-- 標題 價格 簡介 -->
+                <div class="pb-32">
+                    <h2 class="pb-16">Platform 404</h2>
+                    <div class="d-flex align-c">
+                        <h5 class="c-p400 pr-8">NT$2,600</h5>
+                        <p class="textp-s c-n500 pb-16"><del>NT$3,200</del></p>
+                    </div>
+                    <p class="pb-12 textp-m">Platform 404 以柔和奶白為底，搭配深藍色皮革點綴，走在街上自帶回頭率。鞋型採用復古運動風輪廓，結合輕量厚底與柔軟泡棉鞋舌，兼顧美感與舒適。
+                    </p>
+                    <p class="textp-m">
+                        鞋身選用柔軟皮革材質，打造出清新卻不失個性的氛圍，並以鞋面透氣孔設計提升穿著體驗，兼顧質感與舒適度，適合日常長時間著用。無論是街頭穿搭、日常通勤或週末出遊都能輕鬆駕馭。</p>
+                </div>
+                <!-- 顏色 尺寸 購物車-->
+                <div class="car">
+                    <p class="textp-m">顏色</p>
+                    <div class="color">
+                        <ul class="d-flex">
+                            <li class="pr-8">
+                                <img class="pb-4" src="" alt="">
+                                <p>藍色</p>
+                            </li>
+                            <li>
+                                <img class="pb-4" src="" alt="">
+                                <p>卡其色</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="size">
+                        <p class="textp-m">尺寸</p>
                     </div>
                 </div>
-                <div class="col-6 prb-8">
-                    <div class="det-car"><img src="img/product-d/3.png" alt="">
-                    </div>
-                </div>
-                <div class="col-6 prb-8">
-                    <div class="det-car"><img src="img/product-d/4.png" alt="">
-                    </div>
-                </div>
-                <div class="col-6 prb-8">
-                    <div class="det-car"><img src="img/product-d/5.png" alt="">
-                    </div>
-                </div>
-                <div class="col-6 prb-8">
-                    <div class="det-car"><img src="img/product-d/6.png" alt="">
-                    </div>
-                </div>
-                <div class="col-6 prb-8">
-                    <div class="det-car"><img src="img/product-d/7.png" alt="">
-                    </div>
-                </div>
-                <div class="col-6 prb-8">
-                    <div class="det-car"><img src="img/product-d/8.png" alt="">
-                    </div>
-                </div>
-        </div>
-        <div class="details">
-
+                <!-- 商品材質 購買 保養 -->
+            </div>
         </div>
     </main>
 </body>

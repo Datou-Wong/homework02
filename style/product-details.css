@@ -1,0 +1,6 @@
+.product-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -4px; 
+}
+

@@ -31,8 +31,14 @@
     --Info-200:#97C3ED;
     --Info-300:#3087DB;
 }
+.c-n500{
+    color: var(--Neutral-500);
+}
 .c-n600{
     color: var(--Neutral-600);
+}
+.c-n900{
+    color: var(--Neutral-900);
 }
 .c-p300{
     color: var(--Primary-300);
@@ -40,9 +46,7 @@
 .c-p400{
     color: var(--Primary-400);
 }
-.c-n900{
-    color: var(--Neutral-900);
-}
+
 
 
 *,*::before,*::after{
@@ -86,6 +90,7 @@ h4{
 h5{
     font-size: 20px;
     line-height: 1.2;
+    font-weight: 700;
 }
 h6{
     font-size: 16px;
@@ -115,6 +120,9 @@ h6{
     font-weight: 400;
     color: var(--Neutral-900);
 }
+.text-d-l{
+    text-decoration: line-through;
+}
 
 .d-flex{
     display: flex;
@@ -138,9 +146,6 @@ h6{
 .p-8{
     padding: 8px;
 }
-.pb-12{
-    padding-bottom: 12px;
-}
 .py-12{
     padding: 12px 0;
 }
@@ -156,11 +161,17 @@ h6{
 .py-64{
     padding: 64px 0;
 }
+.px-4{
+    padding: 0 4px;
+}
 .px-12{
-    padding: 12px 0;
+    padding: 0 12px;
 }
 .pb-4{
     padding-bottom: 4px;
+}
+.pb-12{
+    padding-bottom: 12px;
 }
 .pb-16{
     padding-bottom: 16px;
@@ -168,18 +179,20 @@ h6{
 .pb-20{
     padding-bottom: 20px;
 }
+.pb-32{
+    padding-bottom: 32px;
+}
 .pb-48{
     padding-bottom: 48px;
+}
+.pr-8{
+    padding-right: 8px;
 }
 .pr-24{
     padding-right: 24px;
 }
 .pt-32{
     padding-top: 32px;
-}
-.prb-8{
-    padding-right: 8px;
-    padding-bottom: 8px;
 }
 .mr-8{
     margin-right: 8px;
@@ -195,6 +208,9 @@ h6{
 }
 .mb-8{
     margin-bottom: 8px;
+}
+.mb-12{
+    margin-bottom: 12px;
 }
 .mb-24{
     margin-bottom: 24px;
@@ -222,11 +238,9 @@ h6{
     width: calc(100%/12*4);
 }
 .col-5{
-    padding: 0 12px;
     width: calc(100%/12*5);
 }
 .col-6{
-    padding: 0 12px;
     width: calc(100%/12*6);
 }
 .col-7{
