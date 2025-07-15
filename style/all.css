@@ -93,7 +93,6 @@ h5{
     font-weight: 700;
 }
 h6{
-    font-size: 16px;
     line-height: 1.2; 
     font-weight: 700;
     color: var(--Neutral-900);
@@ -115,7 +114,6 @@ h6{
     color: var(--Neutral-600);
 }
 .textp-page{
-    font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
     color: var(--Neutral-900);
@@ -158,6 +156,9 @@ h6{
 .py-33{
     padding: 33.5px 0;
 }
+.py-48{
+    padding: 48px 0;
+}
 .py-64{
     padding: 64px 0;
 }
@@ -167,8 +168,14 @@ h6{
 .px-12{
     padding: 0 12px;
 }
+.pl-8{
+    padding-left: 8px;
+}
 .pb-4{
     padding-bottom: 4px;
+}
+.pb-8{
+    padding-bottom: 8px;
 }
 .pb-12{
     padding-bottom: 12px;
@@ -224,7 +231,9 @@ h6{
 .mt-48{
     margin-top: 48px;
 }
-
+.gap-8{
+    gap: 8px;
+}
 .container{
     max-width: 1296px;
     margin: 0 auto;
@@ -280,4 +289,6 @@ h6{
     border: none;
     background: transparent;
 }
-
+.register{
+    background-color: var(--Primary-200);
+}

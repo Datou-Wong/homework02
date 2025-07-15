@@ -3,4 +3,36 @@
     flex-wrap: wrap;
     margin: 0 -4px; 
 }
-
+.color img{
+    width: 64px;
+}
+.color p{
+    color: var(--Neutral-600);
+    text-align: center;
+}
+.btnProductSize{
+    border: 1px solid var(--Neutral-300);
+    width: 160px;
+}
+.click{
+    border: 1px solid var(--Neutral-900);
+}
+.remain{
+    color: #D74F4F;
+}
+.btn-white{
+    width: 259px;
+    border: 1px solid var(--Neutral-900);
+    font-weight: 500;
+}
+.btn-black{
+    width: 259px;
+    color: #FFFFFF;
+    background-color: black;
+}
+.exhaustive li p{
+    font-size: 16px;
+}
+.exhaustive li{
+    border-bottom: 1px solid var(--Neutral-300);
+}
