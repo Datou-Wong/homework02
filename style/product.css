@@ -26,10 +26,7 @@ nav a i{
     background-color: var(--Primary-300);
     font-weight: 500;
 } 
-.register{
-    background-color: var(--Primary-200);
 
-}
 .btn-black{
     padding: 12px 24px;
     background-color: var(--Neutral-900);
