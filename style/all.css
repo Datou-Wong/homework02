@@ -158,6 +158,12 @@ h6{
     .d-md-none{
         display: none;
     }
+    .h3-md{
+        font-size: 28px;
+    }
+    .h5-md{
+        font-size: 20px;
+    }
 }
 @media (max-width: 576px) {
     .d-sm-block{
@@ -165,6 +171,12 @@ h6{
     }
     .d-sm-none{
         display: none;
+    }
+    .h3-sm{
+        font-size: 28px;
+    }
+    .h5-sm{
+        font-size: 20px;
     }
 }
 
@@ -237,6 +249,22 @@ h6{
 }
 .pt-32{
     padding-top: 32px;
+}
+@media (max-width: 767px) {
+    .py-md-32{
+        padding: 32px 0;
+    }
+    .pb-md-32{
+        padding-bottom: 32px;
+    }
+}
+@media (max-width: 576px) {
+    .py-sm-32{
+        padding: 32px 0;
+    }
+    .pb-sm-32{
+        padding-bottom: 32px;
+    }
 }
 /* margin */
 .mr-8{
@@ -339,4 +367,12 @@ h6{
 }
 .register{
     background-color: var(--Primary-200);
+}
+.btn-black{
+    padding: 12px 24px;
+    background-color: var(--Neutral-900);
+    color: white;
+}
+.paragraph-sm{
+    font-size: 14px;
 }
