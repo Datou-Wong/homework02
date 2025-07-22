@@ -129,7 +129,9 @@ h6{
 .text-d-l{
     text-decoration: line-through;
 }
-
+.fd-c{
+    flex-direction: column
+}
 .d-flex{
     display: flex;
 }
@@ -165,8 +167,13 @@ h6{
         display: none;
     }
 }
+
+/* pandding */
 .p-8{
     padding: 8px;
+}
+.p-32{
+    padding: 32px;
 }
 .py-12{
     padding: 12px 0;
@@ -195,6 +202,9 @@ h6{
 .pl-8{
     padding-left: 8px;
 }
+.pl-15{
+    padding-left: 1.5em;
+}
 .pb-4{
     padding-bottom: 4px;
 }
@@ -209,6 +219,9 @@ h6{
 }
 .pb-20{
     padding-bottom: 20px;
+}
+.pb-24{
+    padding-bottom: 24px;
 }
 .pb-32{
     padding-bottom: 32px;
@@ -225,6 +238,7 @@ h6{
 .pt-32{
     padding-top: 32px;
 }
+/* margin */
 .mr-8{
     margin-right: 8px;
 }
@@ -252,8 +266,14 @@ h6{
 .mb-48{
     margin-bottom: 48px;
 }
+.mb-64{
+    margin-bottom: 64px;
+}
 .mt-48{
     margin-top: 48px;
+}
+.my-24{
+    margin: 24px 0;
 }
 .gap-8{
     gap: 8px;
@@ -280,6 +300,9 @@ h6{
 .col-7{
     padding: 0 12px;
     width: calc(100%/12*7);
+}
+.col-8{
+    width: calc(100%/12*8);
 }
 .col-10{
     padding: 0 12px;

@@ -1,6 +1,6 @@
 header{
     background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true );
-    background-color: ragb(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.4);
     background-size: cover;
 }
 h1{
@@ -25,7 +25,7 @@ h3{
     margin: 0 auto;
 }
 .text{
-    background-color: var(--primary-100);
+    background-color: var(--Primary-100);
 }
 .text h5{
     text-align: center;
@@ -62,3 +62,30 @@ footer{
     color: var(--neutral-600);
     background-color: var(--neutral-100);
 }
+
+h1, h2, h3, h4, h5, p, li, a{
+    font-family: 'Noto Sans TC',sans-serif;
+}
+p, li{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+}
+h4{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    color: var(--neutral-900);
+}
+h5{
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    color: var(--primary-400);
+}
+
+
+
