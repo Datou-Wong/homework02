@@ -27,11 +27,7 @@ nav a i{
     font-weight: 500;
 } 
 
-.btn-black{
-    padding: 12px 24px;
-    background-color: var(--Neutral-900);
-    color: white;
-}
+
 footer nav{
     font-weight: 500;
 }

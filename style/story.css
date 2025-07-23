@@ -1,8 +1,17 @@
 header{
-    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true );
-    background-color: rgba(0,0,0,0.4);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true );
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 151px 0;
 }
+@media (max-width: 767px) {
+   header{
+    padding: 87px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(/img/about/hero-sm.png);
+   }
+}
+
 h1{
     font-weight: 700;
     font-size: 40px;
@@ -19,11 +28,15 @@ h3{
 }
 .title{
      padding: 151px 0;
+     margin: 0 auto;
+     max-width: 100%;
 }
-.container{
-    width: 1296px;
-    margin: 0 auto;
+@media (max-width: 767px) {
+   .title{
+    padding: 0;
+   }
 }
+
 .text{
     background-color: var(--Primary-100);
 }
@@ -59,9 +72,29 @@ h3{
 footer{
     text-align: center;
     font-weight: 400;
-    color: var(--neutral-600);
+    color: var(--neutral600);
     background-color: var(--neutral-100);
 }
+@media (max-width: 767px) {
+   footer nav{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 0;
+   }
+   footer nav ul{
+    flex-direction: column;
+    align-items: flex-start;
+   }
+   footer nav a{
+    margin: 0;
+    align-self: flex-start;
+   }
+   footer nav ul li a{
+    margin: 0;
+    align-self: flex-start;
+   } 
+}
+
 
 h1, h2, h3, h4, h5, p, li, a{
     font-family: 'Noto Sans TC',sans-serif;
@@ -86,6 +119,14 @@ h5{
     font-weight: 700;
     color: var(--primary-400);
 }
+.bor-b{
+    border-bottom: 1px solid var(--Neutral-300);
+}
+.bor-l{
+    border-left: 1px solid var(--Neutral-900) ;
+    padding-left: 8px;
+}
 
-
-
+.bor-t{
+    border-top: 1px solid var(--Neutral-300);
+}
